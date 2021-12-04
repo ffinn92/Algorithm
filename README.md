@@ -1,6 +1,8 @@
 # Algorithm
-## <summary>🥉BronzV</summary>
-<div markdown = "1">
+##
+<detail>
+<summary>🥉BronzV</summary>
+
 - [ ] BJ1000
-</div>
+
 </details>
