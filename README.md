@@ -1,8 +1,3 @@
 # Algorithm
-##
-<detail>
-<summary>🥉BronzV</summary>
-
+## 🥉BronzV
 - [ ] BJ1000
-
-</details>
