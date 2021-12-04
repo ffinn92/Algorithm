@@ -1,3 +1,3 @@
 # Algorithm
-##🥉BronzV
+## 🥉BronzV
 - [ ] BJ1000
