@@ -3,12 +3,17 @@
 - [X] BJ1000
 - [X] BJ1001
 - [X] BJ1271
-- [ ] BJ1550
+- [X] BJ1550
+- [X] BJ2557
 ## 🥉Bronz IV
-- [ ] BJ
+- [X] BJ1008
+- [X] BJ1330
+- [X] BJ2753
 ## 🥉Bronz III
-- [ ] BJ
+- [X] BJ2438
+- [X] BJ2739
+- [X] BJ2741
 ## 🥉Bronz II
-- [ ] BJ
+- [ ] BJ2920
 ## 🥉Bronz I
-- [ ] BJ
+- [X] BJ1546
