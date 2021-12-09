@@ -1,4 +1,5 @@
 # Algorithm
+[Solved.ac 바로가기](https://solved.ac/class)
 ## 🥉Bronz V
 - [X] BJ1000
 - [X] BJ1001
@@ -15,5 +16,6 @@
 - [X] BJ2741
 ## 🥉Bronz II
 - [X] BJ2920
+- [X] BJ8958
 ## 🥉Bronz I
 - [X] BJ1546
