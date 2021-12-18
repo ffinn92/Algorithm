@@ -6,7 +6,7 @@
 
 ## 🥉Bronze I
 - [X] BJ1546
-- [ ] BJ1157
+- [X] BJ1157
 ## 🥉Bronze II
 - [X] BJ2920
 - [X] BJ8958
