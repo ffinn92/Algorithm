@@ -1,4 +1,4 @@
-# Algorithm Class 1
+# Algorithm (Class 1)
 [Solved.ac 바로가기](https://solved.ac/class)
 ### 🥉Bronze
 <details>
