@@ -14,12 +14,16 @@ public class BJ10250 {
             int W = in.nextInt();    // 쓸모없는 변수다.
             int N = in.nextInt();
 
+            int floor = (N % H) * 100;
+            int hooNumber = (N / H) + 1;
+
             if (N % H == 0) {
-                System.out.println((H * 100) + (N / H));
+                System.out.println(H*100+hooNumber-1);
 
             } else {
-                System.out.println(((N % H) * 100) + ((N / H) + 1));
+                System.out.println(floor+hooNumber);
             }
         }
     }
+
 }
