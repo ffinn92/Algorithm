@@ -1,27 +1,45 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Stack;
 
-public class If502CorrectParentheses {
-    public String solution(String tp) {
-        String answer;
+public class If502RemoveParentheses {
+    public String solution(String[] sp) {
+        String answer = "YES";
+        Stack<String> stack = new Stack<>();
 
+        int p1 = 0;
+        int max = sp.length;
 
+        while(p1 != max) {
+            if(sp[p1].equals("(")) {
+                for (int i = p1; i < max; i++) {
+                    stack.push(sp[p1]);
+                    if(sp[p1].equals(")")) {
+                        return stack.pop();
+                    }
+                }
+            }
+
+        }
+
+        return answer;
     }
 
     public static void main(String[] args) throws IOException {
-        If502CorrectParentheses T = new If502CorrectParentheses();
+        If502RemoveParentheses T = new If502RemoveParentheses();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         //입력단
-        String totalParentheses = br.readLine();
+        String str = br.readLine();
+        String[] split = str.split("");
 
-        String result = T.solution(totalParentheses);
-
+        String result = T.solution(split);
         System.out.println(result);
     }
 }
 
+// 아이디어, ")" 을 찾고 ")" 배열 번호p1 기준으로 "(" 시작되는 배열 p2를 찾고 그 p1+1 ~ p2-1까지의 배열을 answer 에 추가한다.
 ///2. 괄호문자제거
 //        설명
 //
@@ -38,7 +56,7 @@ public class If502CorrectParentheses {
 //
 //        예시 입력 1
 //
-//        (A(BC)D)EF(G(H)(IJ)K)LM(N)
+//        (A(BC)DFF)EF(G(H)(IJ)K)LM(N)
 //        예시 출력 1
 //
 //        EFLM
